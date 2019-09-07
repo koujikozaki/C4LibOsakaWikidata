@@ -1,6 +1,10 @@
 # C4LibOsakaWikidata
 ウィキデータチュートリアルの情報提供ページです．
 
+## 情報共有用Googleドキュメント
+https://docs.google.com/document/d/1l-4w8ll1bvxuEYAvlGYTAyUI2vd8dd1eM5bvj_C46CI/edit?usp=sharing  
+※自由に書き込んでください．ただし，人が書いた内容はけさないよう注意しましょう．
+
 ## ウィキデータ関係
 ### 検索サービス
 https://query.wikidata.org/
