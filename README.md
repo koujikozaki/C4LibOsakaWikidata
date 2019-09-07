@@ -3,6 +3,7 @@
 
 ## ウィキデータ関係
 ### 検索サービス
+https://query.wikidata.org/
 
 ### Wikidata:In one page
 https://www.wikidata.org/wiki/Wikidata:In_one_page
@@ -11,7 +12,8 @@ https://www.wikidata.org/wiki/Wikidata:In_one_page
 ### 編集用のデータ（図書館）一覧
 大阪府内  
 - 一覧　https://w.wiki/7zM　
-- MAP　http://lodosaka.jp/C4LibOsaka/MapOsakaLib/
+- MAP　http://lodosaka.jp/C4LibOsaka/MapOsakaLib/  　
+  
 全国  
 - 一覧　https://w.wiki/7zL　
 - MAP　http://lodosaka.jp/C4LibOsaka/MapLib/
@@ -19,5 +21,5 @@ https://www.wikidata.org/wiki/Wikidata:In_one_page
 ### 編集担当のメモ用
 https://docs.google.com/spreadsheets/d/107gUcO90VkBDV22PJ-DbHBDy2Az_IIjHkgty1Msb3Gw/edit?usp=sharing
 
-### Wikidataで図書館に使われている項目のまとめ（by Suisuiさん）
+### Wikidataで図書館に使われている項目のまとめ（by Suisuiさん）
 https://www.wikidata.org/wiki/User:Suisui/Item/図書館
