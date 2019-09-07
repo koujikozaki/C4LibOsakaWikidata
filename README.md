@@ -30,6 +30,7 @@ https://www.wikidata.org/wiki/User:Suisui/Item/図書館
 
 ## 成果まとめ
 ### チュートリアルで入力したデータの検索用クエリ
+- 大阪府下の図書館  
 クエリ実行 https://w.wiki/7zh  
 ```SELECT ?s ?sLabel ?point ?area ?books ?image ?update ?isil ?jawp WHERE {
   ?s rdfs:label ?sLabel.
@@ -49,6 +50,26 @@ https://www.wikidata.org/wiki/User:Suisui/Item/図書館
   }
 }ORDER BY DESC(?jawp)
 LIMIT 1000
+```
+- 大阪市内の図書館  
+クエリ実行　https://w.wiki/7zy  
+```
+SELECT ?s ?sLabel ?point ?area ?books ?image ?update ?isil ?jawp WHERE {
+  ?s wdt:P17 wd:Q17;     
+      wdt:P791 ?isil;      
+      wdt:P131 wd:Q35765.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+  OPTIONAL{?s wdt:P625 ?point}
+  OPTIONAL{?s wdt:P2046 ?area}
+  OPTIONAL{?s wdt:P1436 ?books}
+  OPTIONAL{?s wdt:P18 ?image}
+  OPTIONAL{?jawp schema:about ?s ;
+           schema:isPartOf	<https://ja.wikipedia.org/>.
+           }
+  OPTIONAL { 
+    ?s schema:dateModified ?update.
+  }
+}ORDER BY DESC(?isil)
 ```
 
 ### 可視化
