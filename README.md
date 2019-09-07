@@ -71,7 +71,17 @@ SELECT ?s ?sLabel ?point ?area ?books ?image ?update ?isil ?jawp WHERE {
   }
 }ORDER BY DESC(?isil)
 ```
+※大阪市内のすべての市立図書館の「位置する行政区」に「大阪市」を追加したので，上記のクエリで「大阪市内の図書館」の一覧を取れます．
 
-### 可視化
+### 可視化例：大阪市立図書館について
+- 所在地を地図で表示 https://w.wiki/7$5
+- 面積を比較【棒グラフ】　https://w.wiki/7$9
+- 面積を比較【バブルチャート】　https://w.wiki/7$B
+- 収蔵数を比較【棒グラフ】　https://w.wiki/7$E
+- 収蔵数を比較【バブルチャート】　https://w.wiki/7$C
+- 面積当たりの収蔵数を比較【棒グラフ】　https://w.wiki/7$G
+- 面積当たりの収蔵数を比較【バブルチャート】　https://w.wiki/7$H
+
+### 可視化例：大阪府下の図書館について
 - 蔵書数　https://w.wiki/7zj
 - 面積当たりの蔵書数　https://w.wiki/7zi
