@@ -48,7 +48,8 @@ https://www.wikidata.org/wiki/User:Suisui/Item/図書館
     ?s schema:dateModified ?update.
   }
 }ORDER BY DESC(?jawp)
-LIMIT 1000```
+LIMIT 1000
+```
 
 ### 可視化
 - 蔵書数　https://w.wiki/7zj
