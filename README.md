@@ -81,6 +81,10 @@ SELECT ?s ?sLabel ?point ?area ?books ?image ?update ?isil ?jawp WHERE {
 - 収蔵数を比較【バブルチャート】　https://w.wiki/7$C
 - 面積当たりの収蔵数を比較【棒グラフ】　https://w.wiki/7$G
 - 面積当たりの収蔵数を比較【バブルチャート】　https://w.wiki/7$H
+- 人口当たりの収蔵数【某グラフ】　https://w.wiki/7$R
+- 人口当たりの収蔵数【バブルチャート】　https://w.wiki/7$K
+- 人口当たりの面積【棒グラフ】 https://w.wiki/7$Q
+- 人口当たりの面積【バブルチャート】　https://w.wiki/7$M
 
 ### 可視化例：大阪府下の図書館について
 - 蔵書数　https://w.wiki/7zj
